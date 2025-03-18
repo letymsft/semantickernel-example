@@ -6,7 +6,7 @@ var builder = Kernel.CreateBuilder();
 builder.AddAzureOpenAIChatCompletion(
     "gpt-4o-mini",
     "https://oai-semantickernel-demo.openai.azure.com/",
-    "");
+    "...your Azure OpenAI Key...");
 
 var kernel = builder.Build();
 
